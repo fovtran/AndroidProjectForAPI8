@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.test">
+
+  <uses-sdk tools:overrideLibrary="
+  android.support.v7.appcompat,
+  android.support.graphics.drawable,
+  android.support.v4,
+  android.support.fragment,
+  android.support.mediacompat,
+  android.support.coreutils,
+  android.support.coreui,
+  android.support.compat,
+  android.support.design,
+  android.support.v7.recyclerview,
+  android.support.transition,
+  android.support.v7.cardview,
+
+  com.google.android.material,
+  android.support.loader,
+  android.support.v7.viewpager,
+  android.support.coordinatorlayout,
+  android.support.drawerlayout,
+  android.support.slidingpanelayout,
+  android.support.customview,
+  android.support.swiperefreshlayout,
+  android.support.asynclayoutinflater,
+  androidx.versionedparcelable,
+  android.support.cursoradapter,
+  android.arch.lifecycle,
+  android.support.documentfile,
+  android.support.localbroadcastmanager,
+  android.support.print,
+  android.arch.lifecycle.viewmodel,
+  android.arch.lifecycle.livedata,
+  android.arch.lifecycle.livedata.core,
+  android.arch.core,
+  android.support.interpolator,
+  androidx.appcompat,
+  androidx.cardview,
+  androidx.coordinatorlayout,
+  androidx.transition,
+  androidx.appcompat.resources,
+  androidx.vectordrawable.animated,
+  androidx.vectordrawable,
+  androidx.viewpager2,
+  androidx.fragment,
+  androidx.drawerlayout,
+  androidx.recyclerview,
+  androidx.viewpager,
+  androidx.customview,
+  androidx.loader,
+  androidx.activity,
+  android.support.constraint" />
+
+  <!-- android:theme="@style/AppBaseTheme"> -->
+  <!-- android:theme="@style/Theme.AppCompat"> -->
+<!--
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:supportsRtl="true"
+      -->
+
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme">
+
+  <activity android:name="com.example.test.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+
+</manifest>
